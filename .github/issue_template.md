@@ -1,6 +1,6 @@
 ## Tutorial
 
-If you want to request a topic on LeetCode The Hard Way
+If you want to request a topic on Scribbles
 
 - State the topic
 
