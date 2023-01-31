@@ -1,53 +1,46 @@
 ---
-description: "Author: @kondekarshubham123 | https://leetcode.com/problems/valid-palindrome/"
+description: "Author: @kondekarshubham123"
 tags: [Two Pointer]
 ---
 
 # 1 - Valid Palindrome (Easy)
 
-## Problem Link
-
-https://leetcode.com/problems/valid-palindrome/
 
 ## Problem Statement
 
-A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+Write a function that takes a string s as input and checks whether it’s a palindrome or not.
 
-Given a string *s*, return *true* if it is a **palindrome**, or *false* otherwise.
+> Note: A phrase, word or sequence is a palindrome that reads the same backwards as forwards.
 
 **Example 1:**
 
 ```
-Input: s = "A man, a plan, a canal: Panama"
-Output: true
-Explanation: "amanaplanacanalpanama" is a palindrome.
+Input: s = "ABCBA"
+Output: True
+Explanation: "ABCBA" is a palindrome.
 ```
 
 **Example 2:**
 
 ```
-Input: s = "race a car"
-Output: false
-Explanation: "raceacar" is not a palindrome.
-```
-
-**Example 3:**
-
-```
-Input: s = " "
-Output: true
-Explanation: s is an empty string "" after removing non-alphanumeric characters.
-Since an empty string reads the same forward and backward, it is a palindrome.
+Input: s = "ABCCA"
+Output: False
+Explanation: "ABCCA" is not a palindrome.
 ```
 
 **Constraints:**
 
--   `1 <= s.length <= 2 * 105`
--   `s` consists only of printable ASCII characters.
+-   1 <= `s.length` <= 2 * 10 <sup>5</sup>
+-   The string won’t have any spaces and will only consist of ASCII characters.
 
 
 ## Approach 1: Two Pointer Approch
 
+The two-pointer approach works by comparing the characters at both ends of the string, starting from the first and last characters. If the characters are different, the string is not a palindrome and the function returns False. If the characters are the same, the pointers are moved towards each other, one step at a time, until they meet in the middle of the string.
+
+If all the characters are the same and the pointers haven't returned False, then the string is a palindrome and the function returns True.
+
+This approach is efficient, because it only needs to check half of the characters in the string, rather than checking each character individually.
 
 <Tabs>
 
@@ -55,9 +48,17 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 <SolutionAuthor name="@kondekarshubham123"/>
 
 ```python
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
-        pass
+def is_palindrome(s):
+    
+    left, right = 0, len(s) - 1
+
+    while left <= right:
+        if s[left] != s[right]:
+            return False
+        left += 1
+        right -= 1
+
+    return True
 ```
 </TabItem>
 </Tabs>
