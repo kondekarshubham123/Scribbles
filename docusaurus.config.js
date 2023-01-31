@@ -8,10 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus for coders',
-  tagline: 'Dinosaurs are cool',
+  title: 'Scribbles',
+  tagline: 'Personal notes',
   url: 'https://github.com', // Change url with your dns.
-  baseUrl: '/docusaurus-for-coders-template/',
+  baseUrl: '/Scribbles/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'kondekarshubham123', // Usually your GitHub org/user name. // Change this with your username.
-  projectName: 'docusaurus-for-coders-template', // Usually your repo name. // Change with your repo name.
+  projectName: 'Scribbles', // Usually your repo name. // Change with your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -43,14 +43,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/kondekarshubham123/docusaurus-for-coders-template/blob/main/',
+            'https://github.com/kondekarshubham123/Scribbles/blob/main/',
         },
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
         //   editUrl:
-        //     'https://github.com/kondekarshubham123/docusaurus-for-coders-template',
+        //     'https://github.com/kondekarshubham123/Scribbles',
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Coders Template',
+        title: 'Scribbles',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -76,13 +76,13 @@ const config = {
             label: 'Tutorial',
           },
           {
-            label: 'Solutions',
-            to: '/solutions/category/0000---0099',
+            label: 'DSA',
+            to: '/dsa/category/1---two-pointer',
             activeBaseRegex: `/solutions/`,
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/kondekarshubham123/docusaurus-for-coders-template',
+            href: 'https://github.com/kondekarshubham123/Scribbles',
             label: 'GitHub',
             // 'aria-label': 'GitHub repository',
             // className: 'header-github-link',
@@ -117,8 +117,8 @@ const config = {
                 to: '/intro',
               },
               {
-                label: 'Solutions',
-                href: '/solutions/category/0000---0099/',
+                label: 'DSA',
+                href: '/dsa/category/1-two-pointer/',
               },
             ],
           },
@@ -157,7 +157,7 @@ const config = {
       },
       announcementBar: {
         id: 'announcementBar-1', // Increment on change
-        content: `⭐️ Add your announcement here <a target="_blank" href="https://github.com/kondekarshubham123/docusaurus-for-coders-template">GitHub</a>⭐️`,
+        content: `⭐️ Add your announcement here <a target="_blank" href="https://github.com/kondekarshubham123/Scribbles">GitHub</a>⭐️`,
         isCloseable: true,
       },
       prism: {
@@ -175,12 +175,12 @@ const config = {
       [
         '@docusaurus/plugin-content-docs',
         {
-          id: 'solutions',
-          path: 'solutions',
-          routeBasePath: 'solutions',
+          id: 'dsa',
+          path: 'dsa',
+          routeBasePath: 'dsa',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/kondekarshubham123/docusaurus-for-coders-template/tree/main/'
+            'https://github.com/kondekarshubham123/Scribbles/tree/main/'
         }
       ]
 
