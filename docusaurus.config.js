@@ -77,8 +77,8 @@ const config = {
           },
           {
             label: 'DSA',
-            to: '/dsa/category/1---two-pointer',
-            activeBaseRegex: `/solutions/`,
+            to: '/dsa/category/grokking-coding-interview',
+            activeBaseRegex: `/dsa/`,
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -118,7 +118,7 @@ const config = {
               },
               {
                 label: 'DSA',
-                href: '/dsa/category/1-two-pointer/',
+                href: '/dsa/category/grokking-coding-interview',
               },
             ],
           },
