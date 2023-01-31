@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscribbles=self.webpackChunkscribbles||[]).push([[5667],{7510:s=>{s.exports=JSON.parse('{"label":"facebook","permalink":"/Scribbles/blog/tags/facebook","allTagsPath":"/Scribbles/blog/tags","count":1}')}}]);

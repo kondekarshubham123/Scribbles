@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscribbles=self.webpackChunkscribbles||[]).push([[1238],{4323:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/Scribbles/blog/tags/docusaurus","allTagsPath":"/Scribbles/blog/tags","count":4}')}}]);
