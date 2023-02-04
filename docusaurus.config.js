@@ -80,6 +80,11 @@ const config = {
             to: '/dsa/category/grokking-coding-interview',
             activeBaseRegex: `/dsa/`,
           },
+          {
+            label: 'Frameworks',
+            to: '/frameworks/category/react-native',
+            activeBaseRegex: `/frameworks/`,
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/kondekarshubham123/Scribbles',
@@ -157,7 +162,7 @@ const config = {
       },
       announcementBar: {
         id: 'announcementBar-1', // Increment on change
-        content: `⭐️ Add your announcement here <a target="_blank" href="https://github.com/kondekarshubham123/Scribbles">GitHub</a>⭐️`,
+        content: `⭐️ If this website can help you, welcome to give a star to support the author <a target="_blank" href="https://github.com/kondekarshubham123/Scribbles">GitHub</a>⭐️`,
         isCloseable: true,
       },
       prism: {
@@ -178,6 +183,17 @@ const config = {
           id: 'dsa',
           path: 'dsa',
           routeBasePath: 'dsa',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/kondekarshubham123/Scribbles/tree/main/'
+        }
+      ],
+      [
+        '@docusaurus/plugin-content-docs',
+        {
+          id: 'frameworks',
+          path: 'frameworks',
+          routeBasePath: 'frameworks',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/kondekarshubham123/Scribbles/tree/main/'
