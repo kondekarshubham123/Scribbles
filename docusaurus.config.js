@@ -82,7 +82,7 @@ const config = {
           },
           {
             label: 'Frameworks',
-            to: '/frameworks/category/react-native',
+            to: '/frameworks/context',
             activeBaseRegex: `/frameworks/`,
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
@@ -125,6 +125,10 @@ const config = {
                 label: 'DSA',
                 href: '/dsa/category/grokking-coding-interview',
               },
+              {
+                label: 'Framework',
+                href: '/frameworks/category/react-native',
+              },
             ],
           },
           {
@@ -158,7 +162,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Scribbles Built with Docusaurus.`,
       },
       announcementBar: {
         id: 'announcementBar-1', // Increment on change
