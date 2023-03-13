@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscribbles=self.webpackChunkscribbles||[]).push([[4688],{8070:e=>{e.exports=JSON.parse('[{"label":"Two Pointer","permalink":"/Scribbles/tags/two-pointer","count":1}]')}}]);

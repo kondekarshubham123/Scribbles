@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscribbles=self.webpackChunkscribbles||[]).push([[5691],{3915:e=>{e.exports=JSON.parse('{"label":"Two Pointer","permalink":"/Scribbles/tags/two-pointer","allTagsPath":"/Scribbles/tags","count":1,"items":[{"id":"template","title":"template","description":"Author: @kondekarshubham123","permalink":"/Scribbles/template"}]}')}}]);
