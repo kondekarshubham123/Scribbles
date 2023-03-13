@@ -50,7 +50,9 @@ tags: [Web Development, React]
 
 ### Important files
 
-1. `package.json`
-2. `src/index.js`
-3. `src/App.js`
-5. `public/index.html`
+|  Sr.  |    File name        |                                         |
+| :---: |      :---:          | :---:                                   |
+|   1   | `package.json`      |  This file is the **central configuration file** for a *React project*. It lists **all the dependencies and scripts** that are required for the *project to run*. It is important because it allows developers to *easily manage and update dependencies, add new dependencies, and configure scripts* to run tasks like starting the development server, running tests, or building the production version of the app.   |
+|   2   | `src/index.js`      |  This file is the **entry point** for the React application. It is the first file that gets executed when the application is launched. It is important because it initializes the React app and renders the main component, usually the App component.                                   |
+|   3   | `src/App.js`        |  This file contains **the main component** of the React application. It is the root component that contains all the other components of the application. It is important because it defines the structure and logic of the application.                                                        |
+|   4   | `public/index.html` |   This file is the **main HTML file** of the React application. It is important because it provides the root element in which the React app will be rendered. It also allows developers to add meta tags, link to external stylesheets or scripts, and configure the title of the application.                                      |
