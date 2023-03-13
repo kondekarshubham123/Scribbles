@@ -28,14 +28,16 @@ tags: [Web Development, React]
         1. Netflix  
 
 
-### Why React?
+#### Why React?
 
-1. Reusability
-2. DRY
-3. Readability
-4. Separation of Code
-5. Modularity
+React is a popular choice for building user interfaces due to several reasons:
 
+
+1. Reusability: React components are modular and can be reused in different parts of an application, making development faster and more efficient.
+2. DRY (Don't Repeat Yourself): React promotes the principle of DRY by encouraging developers to create reusable components that can be used throughout the application, reducing the amount of duplicate code.
+3. Readability: React uses a declarative syntax, which makes code more readable and easier to understand. Developers can quickly understand what a component does and how it works by reading its code.
+4. Separation of Code: React allows developers to separate concerns by keeping the UI and application logic separate. This separation of code makes it easier to maintain and modify the codebase.
+5. Modularity: React allows developers to create independent and self-contained components, making it easier to test and maintain the code. This modularity also enables developers to work on different parts of the application independently, increasing the development speed and efficiency.
 ---
 
 ### Setup
@@ -56,3 +58,8 @@ tags: [Web Development, React]
 |   2   | `src/index.js`      |  This file is the **entry point** for the React application. It is the first file that gets executed when the application is launched. It is important because it initializes the React app and renders the main component, usually the App component.                                   |
 |   3   | `src/App.js`        |  This file contains **the main component** of the React application. It is the root component that contains all the other components of the application. It is important because it defines the structure and logic of the application.                                                        |
 |   4   | `public/index.html` |   This file is the **main HTML file** of the React application. It is important because it provides the root element in which the React app will be rendered. It also allows developers to add meta tags, link to external stylesheets or scripts, and configure the title of the application.                                      |
+
+
+---
+
+## React Basics - 2
