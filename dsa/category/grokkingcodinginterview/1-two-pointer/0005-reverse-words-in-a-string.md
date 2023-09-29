@@ -3,7 +3,7 @@ description: "Author: @kondekarshubham123"
 tags: [Two Pointer]
 ---
 
-# 3 - Reverse Words in a String
+# 5 - Reverse Words in a String
 
 ## Problem Statement
 
