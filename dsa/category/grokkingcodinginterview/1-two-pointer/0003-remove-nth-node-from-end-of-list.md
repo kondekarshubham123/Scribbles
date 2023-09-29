@@ -28,7 +28,7 @@ Output:
 ## Linked List Starter Code
 
 <Tabs>
-<TabItem value="py" label="LinkedListNode">
+<TabItem value="LinkedListNode" label="LinkedListNode">
 <SolutionAuthor name="@kondekarshubham123"/>
 
 ```python
@@ -42,7 +42,7 @@ class LinkedListNode:
 ```
 </TabItem>
 
-<TabItem value="py" label="LinkedList">
+<TabItem value="LinkedList" label="LinkedList">
 <SolutionAuthor name="@kondekarshubham123"/>
 
 ```python
