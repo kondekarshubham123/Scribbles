@@ -3,7 +3,7 @@ description: "Author: @kondekarshubham123"
 tags: [Two Pointer]
 ---
 
-# 4 - Valid Palindrome II
+# 6 - Valid Palindrome II
 
 ## Problem Statement
 
