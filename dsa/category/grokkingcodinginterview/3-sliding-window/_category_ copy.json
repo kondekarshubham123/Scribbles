@@ -1,6 +1,6 @@
 {
-    "label": "2 - Fast and slow pointers",
-    "position": 3,
+    "label": "3 - Sliding Window",
+    "position": 4,
     "link": {
       "type": "generated-index",
       "description": "Solutions categorised by Problem IDs"
