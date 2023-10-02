@@ -3,7 +3,7 @@ description: "Author: @kondekarshubham123"
 tags: [Sliding Window]
 ---
 
-# 3 - Minimum window subsequence
+# 5 - Minimum window substring
 
 ## Problem Statement
 

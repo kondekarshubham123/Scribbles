@@ -3,7 +3,7 @@ description: "Author: @kondekarshubham123"
 tags: [Sliding Window]
 ---
 
-# 3 - Minimum window subsequence
+# 7 - Minimum size subarray sum
 
 ## Problem Statement
 

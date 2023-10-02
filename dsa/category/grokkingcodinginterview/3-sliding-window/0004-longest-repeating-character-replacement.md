@@ -3,7 +3,7 @@ description: "Author: @kondekarshubham123"
 tags: [Sliding Window]
 ---
 
-# 3 - Minimum window subsequence
+# 4 - Longest repeating character replacement
 
 ## Problem Statement
 
