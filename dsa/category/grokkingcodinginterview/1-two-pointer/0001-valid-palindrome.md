@@ -34,7 +34,7 @@ Explanation: "ABCCA" is not a palindrome.
 -   The string won’t have any spaces and will only consist of ASCII characters.
 
 
-## Approach 1: Two Pointer Approch
+## Two Pointer Approch
 
 The two-pointer approach works by comparing the characters at both ends of the string, starting from the first and last characters. If the characters are different, the string is not a palindrome and the function returns False. If the characters are the same, the pointers are moved towards each other, one step at a time, until they meet in the middle of the string.
 
@@ -44,7 +44,7 @@ This approach is efficient, because it only needs to check half of the character
 
 <Tabs>
 
-<TabItem value="py" label="Python">
+<TabItem value="py-sol-1" label="Python">
 <SolutionAuthor name="@kondekarshubham123"/>
 
 ```python
@@ -59,6 +59,64 @@ def is_palindrome(s):
         right -= 1
 
     return True
+```
+</TabItem>
+
+<TabItem value="java-sol-1" label="Java">
+<SolutionAuthor name="@kondekarshubham123"/>
+
+```java
+import java.util.*;
+
+public class Main{
+    public static boolean isPalindrome(String s) {
+       
+       int ptr1 = 0;
+       int ptr2 = s.length() - 1;
+
+        while (ptr1 < ptr2){
+            if(s.charAt(ptr1) == s.charAt(ptr2)){
+                ptr1 += 1;
+                ptr2 -= 1;
+            } else{
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+</TabItem>
+
+</Tabs>
+
+
+## Other approches
+
+<Tabs>
+
+
+<TabItem value="py-sol-2" label="Python">
+<SolutionAuthor name="@kondekarshubham123"/>
+
+```python
+def is_palindrome(s):
+    return s==s[::-1]
+```
+</TabItem>
+
+
+<TabItem value="java-sol-2" label="Java">
+<SolutionAuthor name="@kondekarshubham123"/>
+
+```java
+import java.util.*;
+
+public class Main{
+    public static boolean isPalindrome(String s) {
+        return new StringBuilder(s).reverse().toString().equals(s);
+    }
+}
 ```
 </TabItem>
 </Tabs>
