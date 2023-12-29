@@ -59,4 +59,43 @@ def find_sum_of_three(nums, target):
 
 ```
 </TabItem>
+
+
+<TabItem value="java-sol-1" label="Java">
+<SolutionAuthor name="@kondekarshubham123"/>
+
+```java
+import java.util.*;
+
+
+public class SumOfThree{
+   public static boolean findSumOfThree(int[] nums, int target) {
+      Arrays.sort(nums);
+      
+      int numsSize = nums.length;
+
+      for(int ptr1 = 0; ptr1 < numsSize - 2 ; ptr1 ++){
+         int ptr2 = ptr1 + 1;
+         int ptr3 = numsSize - 1;
+
+         int newTarget = target - nums[ptr1];
+
+         while(ptr2 < ptr3){
+            int new_sum = nums[ptr2] + nums[ptr3];
+
+            if(newTarget == new_sum){
+               return true;
+            } else if (new_sum > newTarget){
+               ptr3 -= 1;
+            } else {
+               ptr2 += 1;
+            }
+         }
+      }
+      return false;
+   }
+}
+```
+</TabItem>
+
 </Tabs>
