@@ -53,7 +53,7 @@ public class SortColors {
     }
 
     public static int[] sortColors (int[] colors) {
-        // Arrays.sort(colors);
+
         int left = 0;
         int right = colors.length - 1;
 
