@@ -36,47 +36,4 @@ def sort_colors(colors):
     return colors
 ```
 </TabItem>
-
-<TabItem value="java-sol-1" label="Java">
-<SolutionAuthor name="@kondekarshubham123"/>
-    
-```java
-import java.util.*;
-
-public class SortColors {
-
-    public static void swapElements(int[] colors, int firstIdx, int secondIdx){
-        int value = colors[firstIdx];
-        colors[firstIdx] = colors[secondIdx];
-        colors[secondIdx] = value;
-        return;
-    }
-
-    public static int[] sortColors (int[] colors) {
-
-        int left = 0;
-        int right = colors.length - 1;
-
-        int mid = 0;
-
-        while(mid <= right){
-            if (colors[mid] == 1){
-                mid ++;
-                continue;
-            } else if(colors[mid] == 0){
-                swapElements(colors, left, mid);
-                left ++;
-                mid ++;
-            } else if (colors[mid] == 2){
-                swapElements(colors, right, mid);
-                right --;
-            }
-        }
-
-        return colors;
-    }
-}
-```
-</TabItem>
-
 </Tabs>
